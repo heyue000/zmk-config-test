@@ -18,5 +18,5 @@
 #
 ---
 include:
-  - board: nice60
+  - board: nrf52840
     shield: lecarre116
