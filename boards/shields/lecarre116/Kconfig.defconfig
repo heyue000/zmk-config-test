@@ -1,7 +1,0 @@
-if SHIELD_LECARRE116
-
-config ZMK_KEYBOARD_NAME
-    default "lecarre116"
-
-endif
-

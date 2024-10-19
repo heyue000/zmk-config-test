@@ -1,2 +1,0 @@
-config SHIELD_LECARRE116
-    def_bool $(shields_list_contains, lecarre116)
