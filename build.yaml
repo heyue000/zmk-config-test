@@ -19,4 +19,4 @@
 ---
 include:
   - board: ffkb-holyiot
-    shield: lecarre116
+    # shield: lecarre116
