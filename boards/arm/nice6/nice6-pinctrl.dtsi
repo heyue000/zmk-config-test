@@ -4,6 +4,7 @@
  */
 
 &pinctrl {
+    /*
     spi3_default: spi3_default {
         group1 {
             psels = <NRF_PSEL(SPIM_MOSI, 0, 27)>;
@@ -16,4 +17,5 @@
             low-power-enable;
         };
     };
+    */
 };
