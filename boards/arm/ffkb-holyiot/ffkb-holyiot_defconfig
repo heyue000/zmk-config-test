@@ -33,7 +33,7 @@ CONFIG_FLASH_MAP=y
 # Allow toggling underglow without toggling external power
 # CONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=n
 
-CONFIG_BUILD_OUTPUT_UF2=n
+CONFIG_BUILD_OUTPUT_UF2=y
 
 # Increase BLE power level
 CONFIG_BT_CTLR_TX_PWR_PLUS_8=y

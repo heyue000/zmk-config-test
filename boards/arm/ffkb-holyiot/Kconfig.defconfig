@@ -35,6 +35,6 @@ config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
 config BUILD_OUTPUT_UF2
-	default n
+	default y
 
 endif # BOARD_FFKB_HOLYIOT
