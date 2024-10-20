@@ -225,14 +225,14 @@
     };
 };
 
-&spi0 {
-    compatible = "nordic,nrf-spim";
-    status = "okay";
-    mosi-pin = <13>; // was 5 in zaphod, 6 in ffkb byo-mcu
-    // Unused pins, needed for SPI definition, but not used by the ws2812 driver itself.
-    sck-pin = <7>;
-    miso-pin = <8>;
-    cs-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>;
+// &spi0 {
+//     compatible = "nordic,nrf-spim";
+//     status = "okay";
+//     mosi-pin = <13>; // was 5 in zaphod, 6 in ffkb byo-mcu
+//     // Unused pins, needed for SPI definition, but not used by the ws2812 driver itself.
+//     sck-pin = <7>;
+//     miso-pin = <8>;
+//     cs-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>;
 
 //    led_strip: ws2812@0 {
 //         compatible = "worldsemi,ws2812-spi";
@@ -250,7 +250,7 @@
 //                          LED_COLOR_ID_RED
 //                          LED_COLOR_ID_BLUE>;
 //     };
-};
+// };
 
 // / {
 //     chosen {
