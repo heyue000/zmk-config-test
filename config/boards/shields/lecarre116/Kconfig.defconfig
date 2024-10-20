@@ -1,3 +1,13 @@
+config ZMK_USB
+    default y  # 启用 USB 模式
+
+config ZMK_USB_DEVICE_STACK
+    default y  # 启用 USB 设备栈
+
+config ZMK_USB_HID
+    default y  # 启用 USB HID 支持
+
+
 if SHIELD_LECARRE116
 
 config ZMK_KEYBOARD_NAME
