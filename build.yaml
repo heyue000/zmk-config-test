@@ -18,4 +18,5 @@
 #
 ---
 include:
-  - board: nice6
+  - board: nrf52840_mdk_usb_dongle
+    shield: lecarre116
