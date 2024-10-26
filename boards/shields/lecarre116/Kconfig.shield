@@ -1,2 +1,7 @@
 config SHIELD_LECARRE116
     def_bool y # $(shields_list_contains, lecarre116)
+
+CONFIG_ZMK_DEBUG=y
+CONFIG_ZMK_MATRIX_DEBUG=y
+
+CONFIG_ZMK_MATRIX_DEBOUNCE=5
