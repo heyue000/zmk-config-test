@@ -19,5 +19,5 @@
 ---
 include:
   # - board: ffkb-holyiot
-  - board: nrf52840dongle_nrf52840
+  - board: nrf52840dk_nrf52840
     shield: lecarre116
