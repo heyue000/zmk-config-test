@@ -35,12 +35,6 @@ config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
 config BUILD_OUTPUT_UF2
-	default y
-
-config BOOTLOADER_MCUBOOT
-    default y
-
-config BOOTLOADER_NRFXLIB
-    default y
+	default n
 
 endif # BOARD_FFKB_HOLYIOT
