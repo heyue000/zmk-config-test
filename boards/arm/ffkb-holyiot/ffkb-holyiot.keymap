@@ -85,7 +85,7 @@
                 
                 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH   &kp RSHFT    &kp UP      &kp UP
                 
-                &kp LCTRL   &kp LALT    &kp LGUI    &kp SPACE   &kp RGUI   &mo RALT     &kp RCTRL    &kp LEFT    &kp DOWN    &kp RIGHT
+                &kp LCTRL   &kp LALT    &kp LGUI    &kp SPACE   &kp RGUI    &kp RALT    &kp RCTRL   &kp LEFT    &kp DOWN    &kp RIGHT
             >;
         };
 
