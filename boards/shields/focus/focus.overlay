@@ -83,5 +83,6 @@
 };
 
 &uart0 {
-    hw-flow-control = <0>;
+    status = "okay";
+    // hw-flow-control is omitted here to disable it
 };
