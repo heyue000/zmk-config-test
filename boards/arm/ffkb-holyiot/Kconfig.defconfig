@@ -19,6 +19,9 @@ config USB_DEVICE_STACK
 
 endif # USB
 
+# config SPI
+#	default n
+
 config BT_CTLR
 	default BT
 
@@ -26,6 +29,9 @@ config ZMK_BLE
 	default y
 
 config ZMK_USB
+	default y
+
+config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
 config BUILD_OUTPUT_UF2
