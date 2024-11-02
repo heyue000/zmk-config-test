@@ -147,6 +147,16 @@
 
 &gpio0 {
     status = "okay";
+    // nfc-pins = <0x09>, <0x0A>; // Define NFC pins as GPIO (use correct pin numbers)
+    /* Repurpose NFC pins as GPIO */
+    p0_09 {
+        status = "okay";
+        gpio-controller;
+    };
+    p0_10 {
+        status = "okay";
+        gpio-controller;
+    };
 };
 
 &gpio1 {
@@ -220,8 +230,3 @@
 //     };
 // };
 
-// / {
-//     chosen {
-//         zmk,underglow = &led_strip;
-//     };
-// };
