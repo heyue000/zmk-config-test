@@ -149,13 +149,18 @@
     status = "okay";
     // nfc-pins = <0x09>, <0x0A>; // Define NFC pins as GPIO (use correct pin numbers)
     /* Repurpose NFC pins as GPIO */
-    p0_09 {
-        status = "okay";
-        gpio-controller;
+    p0_09: p0_09 {
+        gpio-hog;                  // Declare as a gpio-hog
+        output-high;                // Set the initial state as high
+        gpios = <&gpio0 9 GPIO_ACTIVE_HIGH>;  // Define the pin with active state
+        label = "P0_09_HOG";        // Optional label
     };
-    p0_10 {
-        status = "okay";
-        gpio-controller;
+
+    p0_10: p0_10 {
+        gpio-hog;
+        output-low;
+        gpios = <&gpio0 10 GPIO_ACTIVE_LOW>;
+        label = "P0_10_HOG";
     };
 };
 
