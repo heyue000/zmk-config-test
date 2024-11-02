@@ -14,7 +14,7 @@
     //compatible = "fingerpunch,ffkb-holyiot"
 
     chosen {
-        zephyr,code-partition = &code_partition;
+        // zephyr,code-partition = &code_partition;
         zephyr,sram = &sram0;
         // zephyr,flash = &flash0;
         zmk,kscan = &kscan0;
