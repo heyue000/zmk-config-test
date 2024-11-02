@@ -8,10 +8,6 @@
     status = "okay";
 };
 
-&gpio0 {
-    col-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>, <&gpio0 10 GPIO_ACTIVE_LOW>;  // Combined pins 9 and 10 for pull-up configuration
-};
-
 &gpio1 {
     status = "okay";
 };
