@@ -1,12 +1,20 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&gpio0 {
-    /* Define NFC pins as GPIOs */
-    nfc_gpio: nfc-gpios {
-        pinctrl-0 = <&nfc_pin>;
-        status = "okay";
+/ {
+    aliases {
+        nfc1 = &nfc_pins;
     };
 };
+
+&nfc_pins {
+    status = "okay";
+    nrf-radio-fem-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>, <&gpio0 10 GPIO_ACTIVE_LOW>;
+};
+
+&nfc {
+    status = "disabled";
+};
+
 
 / {
     chosen {
