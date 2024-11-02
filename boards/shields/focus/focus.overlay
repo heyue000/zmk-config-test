@@ -81,3 +81,11 @@
 &gpio1 {
     status = "okay";
 };
+
+// Optional: If you want to explicitly set P0.05 and P0.07 to GPIO
+&pinctrl {
+    gpio0_pins: gpio0_pins {
+        pins = <NRF_P0_05 NRF_P0_07>;
+        function = "gpio";
+    };
+};
