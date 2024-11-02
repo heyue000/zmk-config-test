@@ -31,8 +31,8 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
-# config ZMK_BATTERY_VOLTAGE_DIVIDER
-#	default y
+#config ZMK_BATTERY_VOLTAGE_DIVIDER
+	default n
 
 config BUILD_OUTPUT_UF2
 	default n
