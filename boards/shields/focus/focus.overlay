@@ -81,3 +81,7 @@
 &gpio1 {
     status = "okay";
 };
+
+&uart0 {
+    hw-flow-control = <0>;
+};
