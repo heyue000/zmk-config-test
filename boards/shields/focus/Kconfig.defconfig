@@ -3,10 +3,5 @@ if SHIELD_focus
 config ZMK_KEYBOARD_NAME
     default "focus"
 
-
-# Disable NFC
-config NFC
-    default n
-
 endif
 
