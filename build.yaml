@@ -20,5 +20,5 @@
 include:
   # - board: nice6
   # - board: ffkb-holyiot
-  - board: seeed_xiao_ble
+  - board: xiao_ble
     shield: focus
