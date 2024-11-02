@@ -7,3 +7,6 @@ config NFCT_PINS_AS_GPIOS
 
 config TRACING
     default n
+
+config DEBUG
+    default n
