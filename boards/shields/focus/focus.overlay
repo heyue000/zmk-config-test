@@ -1,9 +1,16 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&nfc {
-    status = "disabled";
+&gpiote {
+    status = "okay";
 };
 
+&gpio0 {
+    status = "okay";
+};
+
+&gpio1 {
+    status = "okay";
+};
 
 / {
     chosen {
