@@ -1,3 +1,5 @@
 config SHIELD_focus
-    def_bool y # $(shields_list_contains, focus)
-    
+    def_bool $(shields_list_contains, focus)
+
+config NFCT_PINS_AS_GPIOS
+	default y
