@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nice6
+  # - board: nice6
   # - board: ffkb-holyiot
-  # - board: nrf52840dk_nrf52840
-    # shield: focus
+  - board: nrf52840dk_nrf52840
+    shield: focus
