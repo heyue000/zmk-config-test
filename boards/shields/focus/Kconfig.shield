@@ -13,4 +13,6 @@ config DEBUG
 
 config BUILD_OUTPUT_UF2
 	default n
-    
+
+config UART_0_NRF_FLOW_CONTROL
+    default n
