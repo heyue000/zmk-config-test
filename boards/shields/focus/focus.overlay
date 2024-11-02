@@ -1,17 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&gpiote {
-    status = "okay";
-};
-
-&gpio0 {
-    status = "okay";
-};
-
-&gpio1 {
-    status = "okay";
-};
-
 / {
     chosen {
         zmk,kscan = &default_kscan;
@@ -80,4 +68,16 @@
                     RC(6,9) RC(6,10)    RC(6,11)    RC(6,12)    RC(6,13)    RC(6,14)
         >;
     };
+};
+
+&gpiote {
+    status = "okay";
+};
+
+&gpio0 {
+    status = "okay";
+};
+
+&gpio1 {
+    status = "okay";
 };
