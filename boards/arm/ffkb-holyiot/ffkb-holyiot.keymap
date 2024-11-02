@@ -77,7 +77,7 @@
                 
                 &kp GRAVE   &kp 1       &kp 2       &kp 3       &kp 4       &kp 5       &kp 6       &kp 7       &kp 8       &kp 9       &kp 0       &kp MINUS    &kp EQUAL   &kp BSPC     &kp A
                 
-                &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp LBKT     &kp RBKT    &kp BSLH     &kp B
+                &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp LBKT     &kp RBKT    &kp BSLASH     &kp B
                 
                 &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SQT     &kp SEMI     &kp ENTER
                 
