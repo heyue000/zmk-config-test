@@ -10,3 +10,7 @@ config TRACING
 
 config DEBUG
     default n
+
+config BUILD_OUTPUT_UF2
+	default n
+    
