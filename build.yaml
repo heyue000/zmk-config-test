@@ -20,5 +20,5 @@
 include:
   # - board: nice6
   # - board: ffkb-holyiot
-  - board: nrf52840_blip
+  - board: nrf52840_mdk
     shield: focus
