@@ -20,5 +20,5 @@
 include:
   # - board: nice6
   # - board: ffkb-holyiot
-  - board: adafruit_feather_nrf52840
+  - board: nrf52840dongle_nrf52840
     shield: focus
