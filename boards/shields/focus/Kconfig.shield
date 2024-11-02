@@ -1,5 +1,9 @@
 config SHIELD_focus
     def_bool $(shields_list_contains, focus)
 
+# enabled the NFC pins
 config NFCT_PINS_AS_GPIOS
 	default y
+
+config USE_TRACER
+    default n
