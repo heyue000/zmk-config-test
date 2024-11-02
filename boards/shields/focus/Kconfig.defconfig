@@ -1,7 +1,12 @@
-if SHIELD_LECARRE116
+if SHIELD_focus
 
 config ZMK_KEYBOARD_NAME
-    default "lecarre116"
+    default "focus"
+
+
+# Disable NFC
+config NFC
+    default n
 
 endif
 
