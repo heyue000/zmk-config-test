@@ -5,5 +5,5 @@ config SHIELD_focus
 config NFCT_PINS_AS_GPIOS
 	default y
 
-config USE_TRACER
+config TRACING
     default n
