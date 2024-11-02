@@ -10,6 +10,3 @@ config TRACING
 
 config DEBUG
     default n
-
-config UART_0_NRF_FLOW_CONTROL
-    default n
