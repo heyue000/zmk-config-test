@@ -13,3 +13,5 @@ config DEBUG
 
 config BUILD_OUTPUT_UF2
 	default n
+
+CONFIG_SERIAL=n

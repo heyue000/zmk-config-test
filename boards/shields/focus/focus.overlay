@@ -83,5 +83,5 @@
 };
 
 &uart0 {
-    status = "disabled";
+    status = "disabled"; // disable UART flow control
 };
