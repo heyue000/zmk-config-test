@@ -14,18 +14,20 @@ config DEBUG
 config BUILD_OUTPUT_UF2
 	default n
 
-# run after Kconfig.defconfig
+# use this one
 config ZMK_KEYBOARD_NAME
     default "FocusBoard"
 
 # here below doesnt work
 # CONFIG_ZMK_KEYBOARD_NAME="FocusKeyboard"
 
-CONFIG_ZMK_USB_VID=0x1234
-CONFIG_ZMK_USB_PID=0x5679
+# CONFIG_ZMK_USB_VID=0x1234
+# CONFIG_ZMK_USB_PID=0x5679
 
 config ZMK_USB_VID
+    int "USB Vendor ID"
     default 0x1234
 
 config ZMK_USB_PID
+    int "USB Product ID"
     default 0x5678
