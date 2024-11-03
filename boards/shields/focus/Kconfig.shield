@@ -14,10 +14,5 @@ config DEBUG
 config BUILD_OUTPUT_UF2
 	default n
 
-config ZMK_USB_VID
-    default 0x1234
-
-config ZMK_USB_PID
-    default 0x5678
-    
-    
+config ZMK_KEYBOARD_NAME
+    default "FocusBoard"
