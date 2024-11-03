@@ -1,7 +1,7 @@
 config SHIELD_focus
     def_bool $(shields_list_contains, focus)
 
-# enabled the NFC pins
+# set the NFC pins as GPIO
 config NFCT_PINS_AS_GPIOS
 	default y
 
@@ -14,4 +14,3 @@ config DEBUG
 config BUILD_OUTPUT_UF2
 	default n
 
-CONFIG_SERIAL=n

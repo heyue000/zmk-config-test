@@ -82,6 +82,7 @@
     status = "okay";
 };
 
+// disable nRF52840 DK's UART flow control, otherwise the pin 0.05 and 0.07 can't be used as GPIO
 &uart0 {
-    status = "disabled"; // disable UART flow control
+    status = "disabled";
 };
