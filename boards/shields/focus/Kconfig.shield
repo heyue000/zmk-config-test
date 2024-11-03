@@ -15,10 +15,11 @@ config BUILD_OUTPUT_UF2
 	default n
 
 # run after Kconfig.defconfig
-# config ZMK_KEYBOARD_NAME
-#    default "FocusBoard"
+config ZMK_KEYBOARD_NAME
+    default "FocusBoard"
 
-CONFIG_ZMK_KEYBOARD_NAME="FocusKeyboard"
+# here below doesnt work
+# CONFIG_ZMK_KEYBOARD_NAME="FocusKeyboard"
 
 CONFIG_ZMK_USB_VID=0x1234
 CONFIG_ZMK_USB_PID=0x5679
