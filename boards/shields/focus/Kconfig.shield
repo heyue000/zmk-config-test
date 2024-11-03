@@ -26,10 +26,8 @@ config ZMK_KEYBOARD_NAME
 
 # 0x1234
 config USB_DEVICE_VID
-    int "USB Vendor ID"
-    default 4660
+    default 0x1234
 
 # 0x5678
 config USB_DEVICE_PID
-    int "USB Product ID"
-    default 22136
+    default 0x5678
