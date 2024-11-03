@@ -86,3 +86,8 @@
 &uart0 {
     status = "disabled";
 };
+
+&usb {
+    vid = <0x1234>;
+    pid = <0x5678>;
+};
