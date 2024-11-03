@@ -7,15 +7,24 @@
         compatible = "zmk,keymap";
 
         macros {
-            new_cmd: new_cmd {
-                label = "NewCmd";
-                bindings = <&kp LGUI &kp N>;
+            // new_cmd: new_cmd {
+            //     label = "NewCmd";
+            //     bindings = <&kp LGUI &kp N>;
+            // };
+            zed_em_kay: zed_em_kay {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings
+                    = <&macro_press &kp LGUI>
+                    , <&macro_tap &kp N>
+                    , <&macro_release &kp LGUI>
+                    ;
             };
         };
 
         default_layer {
             bindings = <
-                &new_cmd    &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SQT     &kp SEMI     &kp ENTER
+                &zed_em_kay    &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SQT     &kp SEMI     &kp ENTER
                 
                 &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11      &kp F12    &kp A     &kp A
                 
