@@ -21,6 +21,15 @@ config ZMK_KEYBOARD_NAME
 # here below doesnt work
 # CONFIG_ZMK_KEYBOARD_NAME="FocusKeyboard"
 
-CONFIG_USB_DEVICE_VID=0x1234
-CONFIG_USB_DEVICE_PID=0x5679
+# CONFIG_ZMK_USB_VID=0x1234
+# CONFIG_ZMK_USB_PID=0x5679
 
+# 0x1234
+config USB_DEVICE_VID
+    int "USB Vendor ID"
+    default 4660
+
+# 0x5678
+config USB_DEVICE_PID
+    int "USB Product ID"
+    default 22136
