@@ -14,5 +14,6 @@ config DEBUG
 config BUILD_OUTPUT_UF2
 	default n
 
-config ZMK_KEYBOARD_NAME
-    default "FocusBoard"
+# works
+# config ZMK_KEYBOARD_NAME
+#    default "FocusBoard"
