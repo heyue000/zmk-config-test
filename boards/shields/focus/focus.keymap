@@ -3,20 +3,23 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    macros {
+        zed_em_kay: zed_em_kay {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp N>
+                , <&macro_release &kp LGUI>
+                ;
+        };
+    };
+};
+
+
+/ {
     keymap {
         compatible = "zmk,keymap";
-
-        macros {
-            zed_em_kay: zed_em_kay {
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings
-                    = <&macro_press &kp LGUI>
-                    , <&macro_tap &kp N>
-                    , <&macro_release &kp LGUI>
-                    ;
-            };
-        };
 
         default_layer {
             bindings = <
