@@ -7,10 +7,6 @@
         compatible = "zmk,keymap";
 
         macros {
-            // new_cmd: new_cmd {
-            //     label = "NewCmd";
-            //     bindings = <&kp LGUI &kp N>;
-            // };
             zed_em_kay: zed_em_kay {
                 compatible = "zmk,behavior-macro";
                 #binding-cells = <0>;
