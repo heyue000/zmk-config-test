@@ -246,7 +246,7 @@
             bindings = <
                 &func_0    &func_1      &func_2       &func_3       &func_4       &func_5       &func_6       &func_7       &func_8       &func_9       &func_10     &func_11     &func_A
                 
-                &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11      &kp F12    &kfunc_12     &func_B
+                &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11      &kp F12    &func_12     &func_B
                 
                 &kp GRAVE   &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4       &kp NUMBER_5       &kp NUMBER_6       &kp NUMBER_7       &kp NUMBER_8       &kp NUMBER_9       &kp NUMBER_0       &kp MINUS    &kp EQUAL   &kp BSPC     &func_C
                 
